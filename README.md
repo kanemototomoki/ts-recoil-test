@@ -1,3 +1,14 @@
+# memo
+## command
+
+app作成: option => npm, ts
+```sh
+$ npx create-react-app <app-name> --use-npm --template typescript
+```
+
+## ref
+https://zenn.dev/nekoniki/articles/406087e43f4865
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
