@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "prettier": "^2.2.1",
     "recoil": "^0.1.3"
   }
 }
