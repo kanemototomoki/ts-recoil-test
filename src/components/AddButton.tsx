@@ -14,7 +14,6 @@ const AddButton: React.FC = () => {
 
   const onClick = useCallback(() => {
     setTodoList([...todoList, { title: todoTitleFormValue }]);
-    // タスクを追加したら入力欄は空にする
     setTitleFormValue('');
   }, [todoList, todoTitleFormValue, setTodoList, setTitleFormValue]);
 

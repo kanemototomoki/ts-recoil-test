@@ -11,4 +11,3 @@ export const SearchedTodoListSelector = selector<Todo[]>({
     return searchText ? todoList.filter((v) => v.title.includes(searchText)) : todoList;
   }
 });
-

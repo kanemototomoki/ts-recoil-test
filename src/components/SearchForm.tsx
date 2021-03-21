@@ -15,16 +15,18 @@ const SearchForm: React.FC = () => {
   );
 
   return (
-    <label>
-      検索:
-      <input
-        type="text"
-        value={searchTextFormValue}
-        onChange={onChange}
-        name="title"
-        style={{ margin: 12 }}
-      />
-    </label>
+    <div>
+      <label>
+        検索:
+        <input
+          type="text"
+          value={searchTextFormValue}
+          onChange={onChange}
+          name="title"
+          style={{ margin: 12 }}
+        />
+      </label>
+    </div>
   );
 };
 
